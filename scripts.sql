@@ -24,4 +24,10 @@ INSERT INTO nomeTable (id, none, nascimento, sexo, peso, nacionalidade)
 VALUES
 ('1', 'Joao', '1986-01-02', 'M', '78.5', '1.83', 'Brasil');
 
--- alterando
+-- alterando uma table e adc uma coluna
+ALTER TABLE nameTable
+ADD COLUMN nameColuna;
+
+-- modificando definicoes
+ALTER TABLE nameTable
+MODIFY COLUMN nameColuna;
